@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://payments-db:5432/payments
+    username: payments
+    password: payments
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: none
+  flyway:
+    enabled: true
