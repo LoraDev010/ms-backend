@@ -43,4 +43,5 @@ build/
 /docker/tempo/tempo-data/
 
 #MD
-.PLAN.MD
+.PLAN.MDREADMEPERSONAL.md
+/READMEPERSONAL.md
