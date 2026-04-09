@@ -1,6 +1,13 @@
 server:
   port: 8082
 
+orders:
+  clients:
+    catalog:
+      base-url: http://localhost:8081
+    payments:
+      base-url: http://localhost:8083
+
 spring:
   datasource:
     url: jdbc:postgresql://localhost:5434/orders
@@ -12,3 +19,10 @@ spring:
       ddl-auto: none
   flyway:
     enabled: true
+  cloud:
+    openfeign:
+      client:
+        config:
+          default:
+            connectTimeout: 2000
+            readTimeout: 3000

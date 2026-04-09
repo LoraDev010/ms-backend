@@ -49,6 +49,7 @@ Desde la raíz del repo:
 ```powershell
 docker compose -f platform/compose/docker-compose.yml up -d
 docker compose -f platform/compose/docker-compose.yml ps
+```
 
 ### Ejecutar servicios locales
 Abrir 4 terminales diferentes y ejecutar dentro de cada servicio el siguiente comando
